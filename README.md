@@ -32,28 +32,28 @@
 ---
 
 ## **Purpose of .NET Standard**
-- Provides a **uniform API**across different .NET platforms.
-- Enables **code-sharing**across various .NET implementations.
-- Acts as a **contract**for consistent development across multiple runtimes.
+- Provides a **uniform API** across different .NET platforms.
+- Enables **code-sharing** across various .NET implementations.
+- Acts as a **contract** for consistent development across multiple runtimes.
 
 ---
 
 ## **Key Features**
-✔ **Cross-platform compatibility** 
-✔ **API consistency**across different .NET implementations  
-✔ **Backward compatibility**for older .NET versions  
-✔ **Unified development**experience  
-✔ **Broad platform support**(Windows, Linux, macOS, mobile, cloud)
+✔ **Cross-platform compatibility**  
+✔ **API consistency** across different .NET implementations  
+✔ **Backward compatibility** for older .NET versions  
+✔ **Unified development** experience  
+✔ **Broad platform support** (Windows, Linux, macOS, mobile, cloud)
 
 ---
 
 ## **.NET Standard vs. Other .NET Technologies**
 | Feature          | .NET Standard | .NET Framework | .NET Core / .NET 5+ |
 |-----------------|--------------|---------------|------------------|
-| **Cross-Platform**| ✅ Yes | ❌ No | ✅ Yes |
-| **Performance**| ⚖️ Moderate | ⚠️ Slower | 🚀 Optimized |
-| **API Compatibility**| ✅ High | 🔹 Windows-only | ✅ High |
-| **Modern Features**| ✅ Yes | ⚠️ Limited | ✅ Yes |
+| **Cross-Platform** | ✅ Yes | ❌ No | ✅ Yes |
+| **Performance** | ⚖️ Moderate | ⚠️ Slower | 🚀 Optimized |
+| **API Compatibility** | ✅ High | 🔹 Windows-only | ✅ High |
+| **Modern Features** | ✅ Yes | ⚠️ Limited | ✅ Yes |
 
 ---
 
@@ -67,9 +67,9 @@
 ---
 
 ## **How .NET Standard Works**
-- Defines a **set of APIs**that all .NET implementations must support.
-- Ensures **binary compatibility**across different .NET versions.
-- Allows **library authors**to write reusable code.
+- Defines a **set of APIs** that all .NET implementations must support.
+- Ensures **binary compatibility** across different .NET versions.
+- Allows **library authors** to write reusable code.
 
 ---
 
@@ -101,23 +101,23 @@ $ dotnet add reference ../MyNetStandardLibrary/MyNetStandardLibrary.csproj
 ---
 
 ## **Limitations**
-⚠️ **No platform-specific features**(e.g., WPF, WinForms).  
+⚠️ **No platform-specific features** (e.g., WPF, WinForms).  
 ⚠️ **Slower adoption in newer frameworks**.  
-⚠️ **Limited future support**(replaced by .NET 5+).
+⚠️ **Limited future support** (replaced by .NET 5+).
 
 ---
 
 ## **.NET Standard vs .NET 5+**
-- **.NET Standard**is still useful for cross-framework compatibility.
-- **.NET 5+ replaces .NET Standard**for new projects.
+- **.NET Standard** is still useful for cross-framework compatibility.
+- **.NET 5+ replaces .NET Standard** for new projects.
 
 ---
 
 ## **Common Use Cases**
-✔ **Reusable Libraries**for cross-platform apps  
-✔ **NuGet Packages**supporting multiple .NET versions  
-✔ **Shared Codebase**for Microservices and Enterprise Apps  
-✔ **Third-Party Integrations** 
+✔ **Reusable Libraries** for cross-platform apps  
+✔ **NuGet Packages** supporting multiple .NET versions  
+✔ **Shared Codebase** for Microservices and Enterprise Apps  
+✔ **Third-Party Integrations**  
 
 ---
 
@@ -125,22 +125,22 @@ $ dotnet add reference ../MyNetStandardLibrary/MyNetStandardLibrary.csproj
 ### **Comparative Table**
 | Feature            | .NET Standard | .NET Framework | .NET Core / .NET 5+ |
 |-------------------|--------------|---------------|------------------|
-| **Cross-Platform**| ✅ Yes | ❌ No | ✅ Yes |
-| **API Consistency**| ✅ High | ⚠️ Windows-Only | ✅ High |
-| **Future-Proof**| ❌ No | ❌ No | ✅ Yes |
+| **Cross-Platform** | ✅ Yes | ❌ No | ✅ Yes |
+| **API Consistency** | ✅ High | ⚠️ Windows-Only | ✅ High |
+| **Future-Proof** | ❌ No | ❌ No | ✅ Yes |
 
 ---
 
 ## **What to Choose for a New Project?**
-- **If supporting legacy systems**→ Use **.NET Standard**.
-- **For future-proof applications**→ Use **.NET 5+**.
+- **If supporting legacy systems** → Use **.NET Standard**.
+- **For future-proof applications** → Use **.NET 5+**.
 
 ---
 
 ## **Conclusion**
-✔ **.NET Standard enables seamless compatibility.** 
-✔ **Useful for reusable libraries, but newer .NET versions are recommended.** 
-✔ **Understanding .NET Standard is still valuable for legacy projects.** 
+✔ **.NET Standard enables seamless compatibility.**  
+✔ **Useful for reusable libraries, but newer .NET versions are recommended.**  
+✔ **Understanding .NET Standard is still valuable for legacy projects.**  
 
 ---
 
@@ -170,8 +170,8 @@ This interface ensures that any implementation (Console, File, Cloud) follows th
 ---
 
 ## **Recapitulating**
-- .NET Standard **bridges the gap**between different .NET runtimes.
+- .NET Standard **bridges the gap** between different .NET runtimes.
 - It’s **still relevant**, but .NET 5+ is the future.
-- **Understanding it helps in maintaining compatibility**for older applications.
+- **Understanding it helps in maintaining compatibility** for older applications.
 
-Would you like an **advanced tutorial on migrating from .NET Standard to .NET 6+?**🚀
+Would you like an **advanced tutorial on migrating from .NET Standard to .NET 6+?** 🚀
