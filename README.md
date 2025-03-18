@@ -29,6 +29,9 @@
 ## **Introduction: What is .NET Standard Library?**
 .NET Standard is a formal specification of .NET APIs that ensures code compatibility across **.NET Framework, .NET Core, and .NET 5+**.
 
+.NET Standard is an API specification, I mean **it's not a runtime environment or a framework that you can install or run directly.** Instead, it's a set of rules or a list of APIs (methods, classes, and features) that any .NET platform (such as .NET Framework, .NET Core, Xamarin, etc.) must implement to be compatible.
+
+
 ---
 
 ## **Purpose of .NET Standard**
