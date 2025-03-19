@@ -23,6 +23,7 @@
 16. [Technical Example](#technical-example)
 17. [What if the .NET Standard Didn't Exist?](#what-if-the-net-standard-didnt-exist)
 18. [Recapitulating](#recapitulating)
+19. [Versions of .NET Standard](https://github.com/CristianSifuentes/StandardVersion)
 
 ---
 
